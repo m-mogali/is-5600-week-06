@@ -13,7 +13,7 @@ const CardList = ({data}) => {
   
   
   useEffect(() => {
-    setProducts(data.slice(offset, offset + limit));
+    setProducts(data.slice(offset, offset + limit)); 
   }, [offset, limit, data])
 
 
